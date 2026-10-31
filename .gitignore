@@ -10,3 +10,13 @@ _deck_logo.png
 *.pdf
 *.pptx
 !skills/*/assets/*.pptx
+
+# Local mcy-music-find-new-songs databases and SQLite sidecar files
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.sqlite3-*
+
+# Personal Telegram account sessions (state normally lives outside the repository)
+*.session
+*.session-*
