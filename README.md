@@ -1,6 +1,6 @@
 # Church Skills
 
-[![Validate skills](https://github.com/gtp-church/skills/actions/workflows/validate.yml/badge.svg)](https://github.com/gtp-church/skills/actions/workflows/validate.yml)
+[![Validate skills](https://github.com/gtp-church/ai-skills/actions/workflows/validate.yml/badge.svg)](https://github.com/gtp-church/ai-skills/actions/workflows/validate.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 Скиллы для церковного служения от [gtp-church](https://github.com/gtp-church).
@@ -11,7 +11,7 @@
 
 | Скилл | Назначение |
 | --- | --- |
-| [sermon-deck](skills/sermon-deck/SKILL.md) | Презентация к проповеди из PDF: чёрный фон, крупный текст, стихи Писания, полный конспект в заметках докладчика. PPTX и PDF для показа. |
+| [Sermon Deck](skills/sermon-deck/SKILL.md) | Презентация к проповеди из PDF: чёрный фон, крупный текст, стихи Писания, полный конспект в заметках докладчика. PPTX и PDF для показа. |
 
 Шаблон, логотип и метрики шрифтов входят в пакет. Папка с прошлыми презентациями необязательна.
 
@@ -21,7 +21,7 @@
 Выполните в терминале:
 
 ```bash
-npx skills add gtp-church/skills --global
+npx skills add gtp-church/ai-skills --global
 ```
 
 CLI определит установленных агентов и при необходимости предложит выбрать
@@ -36,7 +36,7 @@ Claude Code поддерживает такую установку: ссылка
 Чтобы выбрать конкретный скилл сразу:
 
 ```bash
-npx skills add gtp-church/skills --skill sermon-deck --global
+npx skills add gtp-church/ai-skills --skill sermon-deck --global
 ```
 
 Для установки только в текущий проект выполните команду в его папке без `--global`.
@@ -101,7 +101,7 @@ sudo apt-get install poppler-utils libreoffice-impress
 
 Каждый скилл находится в `skills/<name>/` и содержит `SKILL.md` с полями `name` и `description`.
 Скрипты, справочные материалы и шаблоны лежат рядом. См. [CONTRIBUTING.md](CONTRIBUTING.md).
-Ошибки и предложения — в [Issues](https://github.com/gtp-church/skills/issues).
+Ошибки и предложения — в [Issues](https://github.com/gtp-church/ai-skills/issues).
 
 ## Лицензия
 
