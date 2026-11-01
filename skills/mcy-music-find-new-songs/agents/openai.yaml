@@ -1,4 +1,4 @@
 interface:
-  display_name: "mcy-music-find-new-songs"
+  display_name: "MCY Music Find New Songs"
   short_description: "Новые песни по теме из актуальных церковных источников"
   default_prompt: "Используй $mcy-music-find-new-songs: найди до десяти новых для нашей библиотеки песен по теме «…», перечитай актуальные источники и объясни выбор."

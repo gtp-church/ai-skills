@@ -1,4 +1,4 @@
 interface:
-  display_name: "mcy-music-select-songs"
+  display_name: "MCY Music Select Songs"
   short_description: "Подбор песен по смыслу из актуальной библиотеки"
   default_prompt: "Используй $mcy-music-select-songs: найди около пяти песен из нашей библиотеки, которые лучше всего поддержат тему проповеди «…»."
